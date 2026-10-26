@@ -1,0 +1,22 @@
+{
+  "name": "react_free_upload-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "react-free-upload": "./index.mjs",
+    "upload-toolkit": "./index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "install.mjs",
+    "install.d.mts",
+    "template.tsx"
+  ],
+  "description": "Install editable TSX image uploader source into a consuming project.",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

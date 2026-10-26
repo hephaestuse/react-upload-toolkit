@@ -1,0 +1,35 @@
+# Dependencies, builds and local uploads
+node_modules/
+dist/
+.next/
+.dev-storage/
+*.tsbuildinfo
+coverage/
+
+# Reports, audit fixtures, historical integration notes
+artifacts/
+test-results/
+playwright-report/
+.local/
+
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+.npmrc.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+
+# Editor/OS files and generated framework agent guidance
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+examples/next-app/AGENTS.md
+examples/next-app/CLAUDE.md
+*.tgz
+.aws/
+.ssh/
